@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - HTML & CSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fab4cc0b72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="header">
+        <img src="assets/neuron.png" width="128px" /> 
+    </nav>
+    <section class="container">
+        <div class="container-img">
+            <img src="assets/background.svg" class="background-img" />
+        </div>
+        <div class="container-form">
+            <div class="form-wrapper">
+                <div class="form-desc">
+                    <img src="assets/neuron3.png" width="112px" /> 
+                    <h3>Form Rekrutasi</h3>
+                    <p>Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>                    
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname" class="form-label">
+                            Fullname
+                            <span>*</span>
+                        </label>
+                        <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Masukkan nama" required>
+                    </div>
+                    <div class="form-group" >
+                        <label for="email" class="form-label">
+                            Email
+                            <span>*</span>
+                        </label>
+                        <input type="text" name="email" id="email" class="form-input" placeholder="Masukkan email">
+                    </div>
+                    <div class="form-group">
+                        <label for="no-telp" class="form-label">
+                            Fullname
+                            <span>*</span>
+                        </label>
+                        <input type="text" name="no-telp" id="no-telp" class="form-input" placeholder="Masukkan nomor telepon">
+                    </div>
+                    <div class="form-group">
+                        <label for="lowongan" class="form-label">
+                            Lowongan
+                            <span>*</span>
+                        </label>
+                        <select name="lowongan" class="form-input" id="lowongan"> 
+                            <option value="" selected>- Pilih Lowongan -</option> 
+                            <option value="dbdev">Database Developer</option> 
+                        </select> 
+                    </div>
+                    <div class="form-group">
+                        <label for="posisi" class="form-label">
+                            Posisi
+                            <span>*</span>
+                        </label>
+                        <select name="posisi" class="form-input" id="posisi"> 
+                            <option value="" selected>- Pilih Posisi -</option> 
+                            <option value="contoh1">Contoh Posisi #1</option> 
+                            <option value="contoh2">Contoh Posisi #2</option> 
+                            <option value="contoh2">Contoh Posisi #3</option> 
+                        </select> 
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit">Kirim</button>    
+                    </div>
+                </form>
+                <div class="footer">
+                    <div class="brands-logo">
+                        <i class="fa-brands fa-square-instagram fa-2xl"></i>
+                        <i class="fa-brands fa-youtube fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                    </div>
+                    <a href="www.neuronworks.co.id">www.neuronworks.co.id</a>
+                </div>                
+            </div>
+
+        </div>           
+    </section>
+</body>
+</html>
