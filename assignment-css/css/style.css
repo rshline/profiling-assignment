@@ -1,0 +1,28 @@
+body {
+    background-color: #f3f4f5;
+    color: #282b3a;
+}
+
+span {
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    color: #40ab92;
+}
+
+.bg-green {
+    background-color: #40ab92;
+}
+
+.bg-palegreen {
+    background-color: #adf7ae;
+}
+
+.bg-khaki {
+    background-color: #d7f066;
+}
