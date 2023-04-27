@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Week 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="#">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="#kinerja-produksi">Kinerja Produksi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#kinerja-operasi">Kinerja Operasi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#kondisi-hidrologi">Kondisi Hidrologi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#pemeliharaan-sungai">Pemeliharaan Sungai</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="card my-3" id="kinerja-produksi">
+            <div class="card-header">
+                <h3 class="card-title">Kinerja Produksi</h3>
+            </div>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body bg-green">
+                        <h6 class="card-title">Daily</h6>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 1</h6>
+                                        <h3>1200 <span>MWh</span></h3>
+                                    </div>
+                                </div>                                        
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 2</h6>
+                                        <h3>1230 <span>MWh</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 3</h6>
+                                        <h3>1024 <span>MWh</span></h3>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="card-body bg-palegreen">
+                                <h6 class="card-title text-center">Monthly</h6>
+                                <div class="d-flex justify-content-around mt-3">
+                                    <h3>103.634 <span>MWh</span></h3>                     
+                                    <h3>70%</h3>               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3">
+                            <div class="card-body bg-khaki">
+                                <h6 class="card-title text-center">Yearly</h6>
+                                <div class="d-flex justify-content-around mt-3">
+                                    <h3>11.399.974 <span>MWh</span></h3> 
+                                    <h3>73%</h3>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3" id="kinerja-operasi">
+            <div class="card-header">
+                <h3>Kinerja Operasi</h3>
+            </div>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body bg-green">
+                        <h6 class="card-title">Daily</h6>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 1</h6>
+                                        <h3>1%</h3>
+                                    </div>
+                                </div>                                        
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 2</h6>
+                                        <h3>2%</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Unit 3</h6>
+                                        <h3>3%</h3>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card my-3 text-center">
+                            <div class="card-body bg-palegreen">
+                                <h6 class="card-title">Monthly</h6>
+                                <h3>75%</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3 text-center">
+                            <div class="card-body bg-khaki">
+                                <h6 class="card-title">Yearly</h6>
+                                <h3>77%</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card my-3" id="kondisi-hidrologi">
+            <div class="card-header">
+                <h3>Kondisi Hidrologi</h3>
+            </div>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Discharge</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card my-2">
+                                    <div class="card-body bg-palegreen">
+                                        <h5>Rata-rata Unit 1</h5>
+                                        <div class="row my-3">
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Daily</h6>
+                                                        <h4>55,5 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Monthly</h6>
+                                                        <h4>48,39 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Yearly</h6>
+                                                        <h4>59,805 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card my-2">
+                                    <div class="card-body bg-palegreen">
+                                        <h5>Rata-rata Unit 2</h5>
+                                        <div class="row my-3">
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Daily</h6>
+                                                        <h4>55,5 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Monthly</h6>
+                                                        <h4>48,39 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card text-center">
+                                                    <div class="card-body">
+                                                        <h6>Yearly</h6>
+                                                        <h4>59,805 <span>m<sup>3</sup>/s</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card my-2">
+                            <div class="card-body bg-khaki">
+                                <h5>Total Rata-rata</h5>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card my-3 text-center">
+                                            <div class="card-body">
+                                                <h6>Daily</h6>
+                                                <h4>55,5 <span>m<sup>3</sup>/s</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card my-3 text-center">
+                                            <div class="card-body">
+                                                <h6>Monthly</h6>
+                                                <h4>48,39 <span>m<sup>3</sup>/s</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card my-3 text-center">
+                                            <div class="card-body">
+                                                <h6>Yearly</h6>
+                                                <h4>59,805 <span>m<sup>3</sup>/s</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body bg-green">
+                        <h5>Water Level</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card my-3 text-center">
+                                    <div class="card-body">
+                                        <h6>Daily</h6>
+                                        <h3>903,5 m</h3>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col">
+                                <div class="card my-3 text-center">
+                                    <div class="card-body">
+                                        <h6>Monthly</h6>
+                                        <h3>905,43 m</h3>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col">
+                                <div class="card my-3 text-center">
+                                    <div class="card-body">
+                                        <h6>Yearly</h6>
+                                        <h3>903,9 m</h3>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3" id="pemeliharaan-sungai">
+            <div class="card-header">
+                <h3>Pemeliharaan Sungai</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body bg-palegreen">
+                                <h5>Trashboom 1</h5>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Plastik</h6>
+                                                <h3>76%</h3>
+                                                <h5>2 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Eceng Gondok</h6>
+                                                <h3>34%</h3>
+                                                <h5>2 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Lain-lain</h6>
+                                                <h3>56%</h3>
+                                                <h5>3 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body bg-khaki">
+                                <h5>Trashboom 2</h5>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Plastik</h6>
+                                                <h3>90%</h3>
+                                                <h5>16 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Eceng Gondok</h6>
+                                                <h3>50%</h3>
+                                                <h5>10 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Lain-lain</h6>
+                                                <h3>3%</h3>
+                                                <h5>1 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body bg-khaki">
+                                <h5>Intake Rack</h5>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Plastik</h6>
+                                                <h3>45%</h3>
+                                                <h5>1 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Eceng Gondok</h6>
+                                                <h3>45%</h3>
+                                                <h5>1 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Lain-lain</h6>
+                                                <h3>75%</h3>
+                                                <h5>2 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body bg-palegreen">
+                                <h5>Spiral Case</h5>
+                                <div class="row my-3">
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Plastik</h6>
+                                                <h3>0%</h3>
+                                                <h5>0 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Eceng Gondok</h6>
+                                                <h3>84%</h3>
+                                                <h5>5 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <h6>Lain-lain</h6>
+                                                <h3>0%</h3>
+                                                <h5>0 <span>m<sup>3</sup></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
