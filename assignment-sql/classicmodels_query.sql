@@ -66,3 +66,18 @@ EXPLAIN SELECT * FROM products WHERE productName = 'The Titanic'; /* tanpa index
 CREATE INDEX product_name ON products(productName);
 EXPLAIN SELECT * FROM products WHERE productName = 'The Titanic'; /* dengan index */
 
+-- DML
+SELECT * FROM offices;
+-- Insert
+INSERT INTO offices (officeCode, city, phone, addressLine1, addressLine2, state, country, postalCode, territory)
+VALUES ('8', 'Bandung', '+62 22 1234 5678','Buah Batu Regency',NULL,NULL,'Indonesia','40287','SEA');
+SELECT * FROM offices WHERE officeCode = '8';
+
+-- Update
+UPDATE offices SET addressLine1 = 'Komp. Buah Batu Regency'
+WHERE officeCode = '8 ';
+SELECT * FROM offices WHERE officeCode = '8';
+
+-- Delete
+DELETE FROM offices WHERE officeCode = '8';
+SELECT * FROM offices WHERE officeCode = '8';
